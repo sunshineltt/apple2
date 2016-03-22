@@ -1,0 +1,313 @@
+
+
+
+
+*{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	text-align:center;
+	box-sizing:border-box;
+}
+article, aside, footer, header, nav, main, section, summary, details, hgroup, figure, figcaption {
+    display: block;
+}
+body{
+	 font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: normal;
+    background-color: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+ .clearfix{
+	/*clear:both;*/
+	content:" ";
+	display:table;
+} 
+.h{
+	height:44px;
+	background:red;
+}
+.jieshaobox{
+	width:100%;
+	position:absolute;
+	left:0px;
+	top:44px;
+	z-index:100;
+	overflow: hidden;
+	background:rgba(242,242,242,0.6);
+	text-align:center;
+}
+.jieshao{
+	height:110px;
+	max-width:100%;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.jieshao-items{
+ 	/* margin:0 34px; */
+ 	margin:0 auto;
+	padding-bottom:49px;
+	 white-space:nowrap;
+	overflow-x:auto;
+	overflow-y:hidden; 
+ 
+}
+.jieshao-item{
+ float:left;
+	padding:0 20px;
+
+
+}
+.jieshao-item-link{
+	display:block;
+ 	margin-top:13px;
+	margin-bottom:26px;
+	vertical-align: top;
+	color:inherit;
+ }
+
+
+.jieshao-item:first-child{
+	padding-right:22px;
+	padding-left:0px;
+  }
+  .jieshao-item:last-child{
+	padding-left:22px;
+	padding-right:0px;
+  }
+
+  .jieshao-item-icon{
+ 	height:54px;
+
+ 	background-position:center bottom;
+ }
+ .macbook .jieshao-item-icon{
+ 	background-image:url("../images/mac/macbook_large.svg");
+ 	background-size:46px 54px;
+ 	background-repeat:no-repeat;
+ 	height:54px;
+ 	width:46px;
+  }
+  .macbookair .jieshao-item-icon{
+  	background:url("../images/mac/macbookair_large.svg") no-repeat;
+  	background-size:52px 54px;
+  	height:54px;
+  	width:52px;
+
+   	}
+
+.macbookpro .jieshao-item-icon{
+ 	background:url("../images/mac/macbookpro_large.svg") no-repeat;
+ 	background-size:52px 54px;
+ 	width:52px;
+ 	height:54px;
+
+
+}
+.imac .jieshao-item-icon{
+	background:url("../images/mac/imac_large.svg") no-repeat;
+	background-size:48px 54px;
+	width:48px;
+	height:54px;
+
+
+}
+.macpro .jieshao-item-icon{
+	background:url("../images/mac/macpro_large.svg") no-repeat;
+	background-size:21px 54px;
+	width:21px;
+	height:54px;
+
+}
+.macmini .jieshao-item-icon{
+	background:url("../images/mac/macmini_large.svg") no-repeat;
+	background-size:28px 54px;
+	width:28px;
+	height:54px;
+
+}
+.accessories .jieshao-item-icon{
+ 	background:url("../images/mac/mac_acc_large.svg") no-repeat;
+	background-size:28px 54px;
+	width: 28px;
+ }
+.os .jieshao-item-icon{
+
+	background:url("../images/mac/mac_osx_large.svg") no-repeat;
+	background-size:30px 54px;
+	width:30px;
+}
+.compare .jieshao-item-icon{
+	background:url("../images/mac/mac_comp_large.svg") no-repeat;
+	background-size:70px 54px;
+	width:70px;
+
+}
+.jieshao-item-label{
+	font-size: 12px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 8px;
+    white-space: normal;
+    color: #333;
+}
+.jieshao-item-link:hover{
+	text-decoration: none;
+}
+.jieshao-item-link:hover .jieshao-item-label{
+ 	color:rgba(0,0,0,0.6);
+}
+/* main开始 */
+/* .mian{
+	overflow: hidden;
+} */
+.pagetitle{
+	height:1px;
+	width:1px;
+	font-size:0px;
+
+}
+.product{
+	padding-bottom:140px;
+}
+.product.product-imac{
+	padding-top:550px;
+	padding-bottom:502px;
+	background:yellow; 
+ 	position:relative;
+	z-index:1; 
+
+}
+.row::after,.row::before{
+	content:"";
+	display:table;
+}
+.product-section{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	z-index:1;
+	height:100%;
+	text-align:center;
+}
+.column{
+	min-height:2px;
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:41.6667%;
+	position:relative;
+	z-index:1;
+
+}
+.product.product-imac .product-content{
+	position:relative;
+	z-index:10;
+	top:-340px;
+	left:30px;
+	background:pink;
+}
+.product-headline{
+	font-size:72px;
+	line-height:1.0556;
+	font-weight:200;
+	letter-spacing:-0.024em;
+	margin-bottom:0;
+}
+.product-subline{
+	font-size:32px;
+	line-height:1.1429;
+	font-weight:200;
+	letter-spacing:-0.01em;
+
+
+}
+p{
+	margin-bottom:8px;
+	display:block;
+
+}
+a{
+	color:#08c;
+}
+.product-more{
+	font-size:24px;
+	font-weight:200;
+	letter-spacing: normal;
+	line-height:2.5em;
+}
+.product-more .more{
+	margin-left:10px;
+	margin-right:10px;
+	font-size:24px;
+	font-weight:200;
+	letter-spacing: normal;
+	line-height:2.5em;
+ 
+}
+
+ 
+.more::after{
+	content:">";
+	top:0;
+	padding-left:0.3em;
+}
+.more:hover .more::after{
+	text-decoration: none;
+}
+
+.product-image{
+	margin-left:auto;
+	margin-right:auto;
+	float:none;
+	width:100%;
+
+}
+.image-imac{
+	background:url(../images/mac/hero_large.jpg) no-repeat;
+ 	background-size:987px 799px;
+	width:987px;
+	height:799px;
+	position:absolute;
+	top:-266px;
+	z-index:-1;
+
+}
+.product-accessories{
+	margin-bottom:0px;
+	background:pink;
+}
+.column-accessories{
+	width:66.6667%;
+	text-align: center;
+}
+.image-accessories{
+	background:url(../images/mac/apple_accessories_large.jpg) no-repeat;
+	background-size:1661px 314px;
+	width:1661px;
+	height:314px;
+	z-index: -1;
+    position: absolute;
+    left: -527px;
+    top: 15px;
+}
+ 
+
+
+
+
+
+
+
+
